@@ -46,7 +46,7 @@ public class HashCalcApplicationImpl implements HashCalcApplication {
 			result = 1;
 			break;
 		case 2:
-			result = 0;
+			result = 2;
 			break;
 		default:
 			if(Objects.nonNull(calcResult.get(target))) {
